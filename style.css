@@ -22,13 +22,13 @@ body{
 
 h1{
   margin :0px;
-  font-size :30px;
+  font-size :60px;
   font-weight :700;
 }
 
 p{
   margin :0px;
-  font-size :17px;
+  font-size :25px;
   line-height :3em;
 }
 
@@ -40,9 +40,6 @@ p{
 /*box設定*/
 .box{
   padding :10px;
-  display :flex;
-  justify-content :center;
-  flex-direction :column; 
 }
 
 .box:after{
