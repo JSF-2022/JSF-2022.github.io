@@ -91,3 +91,8 @@ footer{
   border-image :linear-gradient(0deg, var(--white) 90%, var(--dark-gray) 100%);
   border-image-slice :1;
 }
+
+/*文字装飾系*/
+big{
+  font-size:30px;
+}
