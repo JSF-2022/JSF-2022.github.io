@@ -54,7 +54,7 @@ p{
 
 .box:nth-of-type(2n){
   background-color :var(--dark-gray);
-  border-top :solid 3px var(--primary-blue);
+  border-bottom :solid 3px var(--primary-blue);
 }
 
 .box:nth-of-type(2n) img{
@@ -63,11 +63,15 @@ p{
 
 .box:nth-of-type(2n+1){
   background-color :var(--light-gray);
-  border-top :solid 3px var(--primary-orange);
+  border-bottom :solid 3px var(--primary-orange);
 }
 
 .box:nth-of-type(2n+1) img{
   float :left;
+}
+
+.box:first-of-type{
+  border-top :solid 3px var(--primary-blue);
 }
 
 /*ヘッダー*/
@@ -78,4 +82,12 @@ header{
   border-image :linear-gradient(180deg, var(--white) 90%, var(--dark-gray) 100%);
   border-image-slice :1;
   padding :10px 0px;
+}
+
+/*フッター*/
+footer{
+  text-align :center;
+  border-top :solid 20px;
+  border-image :linear-gradient(0deg, var(--white) 90%, var(--dark-gray) 100%);
+  border-image-slice :1;
 }
