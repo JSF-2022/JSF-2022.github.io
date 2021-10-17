@@ -61,12 +61,6 @@ li{
   padding :50px;
 }
 
-.box:after{
-  content :"";
-  clear :both;
-  display :block;
-}
-
 .box img{
   border-radius :10px;
   margin :10px 50px;
@@ -77,17 +71,9 @@ li{
   border-bottom :solid 3px var(--primary-blue);
 }
 
-.box:nth-of-type(2n) img{
-  float :right;
-}
-
 .box:nth-of-type(2n+1){
   background-color :var(--light-gray);
   border-bottom :solid 3px var(--primary-orange);
-}
-
-.box:nth-of-type(2n+1) img{
-  float :left;
 }
 
 .box:first-of-type{
