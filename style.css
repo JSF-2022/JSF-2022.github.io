@@ -59,6 +59,7 @@ li{
 /*box設定*/
 .box{
   padding :50px;
+  margin :10px 50px;
 }
 
 .box:after{
@@ -68,7 +69,6 @@ li{
 }
 
 .box img{
-  padding :10px;
   border-radius :10px;
 }
 
@@ -122,16 +122,19 @@ a.twitter{
   color :var(--white);
   border-radius :10px;
   background-color :#1d9bf0;
+  padding :10px;
 }
 
 a.scratch{
   color :var(--white);
   border-radius :10px;
   background-color #ffbf00;
+  padding :10px;
 }
 
 a.discord{
   color :var(--white);
   border-radius :10px;
   background-color #ffbf00;
+  padding :10px;
 }
