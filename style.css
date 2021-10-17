@@ -32,6 +32,11 @@ p{
   line-height :3em;
 }
 
+li{
+  font-size :25px;
+  list-style :none;
+}
+
 ::selection{
   background-color :#8f8f8f;
   color :var(--white);
