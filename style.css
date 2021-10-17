@@ -35,6 +35,7 @@ p{
 li{
   font-size :25px;
   list-style :none;
+  padding :0px;
 }
 
 ::selection{
