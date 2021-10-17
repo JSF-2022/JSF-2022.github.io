@@ -7,6 +7,7 @@
 
   font-family :"Noto Sans JP";
   color :var(--white);
+  line-height :3em;
 
   /*禁則処理*/
   word-break: keep-all;
@@ -29,7 +30,6 @@ h1{
 p{
   margin :0px;
   font-size :25px;
-  line-height :3em;
 }
 
 ul{
