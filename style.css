@@ -32,6 +32,16 @@ p{
   font-size :25px;
 }
 
+a{
+  font-size :25px;
+  text-decoration :none;
+  color :#ffffffba;
+}
+
+a:hover{
+  color :var(--white);
+}
+
 ul{
   padding :0px;
 }
@@ -59,6 +69,7 @@ li{
 
 .box img{
   padding :10px;
+  border-radius :10px;
 }
 
 .box:nth-of-type(2n){
@@ -104,4 +115,23 @@ footer{
 /*文字装飾系*/
 .big{
   font-size:33px;
+}
+
+/*ボタンデザイン*/
+a.twitter{
+  color :var(--white);
+  border-radius :10px;
+  background-color :#1d9bf0;
+}
+
+a.scratch{
+  color :var(--white);
+  border-radius :10px;
+  background-color #ffbf00;
+}
+
+a.discord{
+  color :var(--white);
+  border-radius :10px;
+  background-color #ffbf00;
 }
