@@ -32,10 +32,13 @@ p{
   line-height :3em;
 }
 
+ul{
+  padding :0px;
+}
+
 li{
   font-size :25px;
   list-style :none;
-  padding :0px;
 }
 
 ::selection{
