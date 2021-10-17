@@ -109,6 +109,7 @@ a.twitter{
 
 a.twitter:hover{
   background-color :#177abd;
+  color :#cccccc;
 }
 
 a.scratch{
@@ -121,4 +122,5 @@ a.scratch{
 
 a.scratch:hover{
   background-color :#cc9900
+  color :#cccccc
 }
