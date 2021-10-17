@@ -113,13 +113,6 @@ a.twitter{
 a.scratch{
   color :var(--white);
   border-radius :10px;
-  background-color #ffbf00;
-  padding :10px;
-}
-
-a.discord{
-  color :var(--white);
-  border-radius :10px;
-  background-color #ffbf00;
+  background-color :#ffbf00;
   padding :10px;
 }
