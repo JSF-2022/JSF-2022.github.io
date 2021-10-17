@@ -63,7 +63,6 @@ li{
 
 .box img{
   border-radius :10px;
-  margin :10px 50px;
 }
 
 .box:nth-of-type(2n){
