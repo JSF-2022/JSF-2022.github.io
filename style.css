@@ -106,9 +106,17 @@ a.twitter{
   padding :10px;
 }
 
+a.twitter:hover{
+  background-color :#177abd;
+}
+
 a.scratch{
   color :var(--white);
   border-radius :10px;
   background-color :var(--scratch-orange);
   padding :10px;
+}
+
+a.scratch:hover{
+  background-color :#cc9900
 }
