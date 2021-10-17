@@ -1,7 +1,9 @@
 *{
   --white :#ffffff;
-  --primary-blue :#00a8f3;
-  --primary-orange :#ffca18;
+  --primary-blue :#4d97ff;
+  --primary-orange :#ffbf00;
+  --twitter-blue :#1d9bf0;
+  --scratch-orange :#ffbf00;
   --dark-gray :#4a4a4a;
   --light-gray :#5e5e5e;
 
@@ -106,13 +108,13 @@ footer{
 a.twitter{
   color :var(--white);
   border-radius :10px;
-  background-color :#1d9bf0;
+  background-color :var(--twitter-blue);
   padding :10px;
 }
 
 a.scratch{
   color :var(--white);
   border-radius :10px;
-  background-color :#ffbf00;
+  background-color :var(--scratch-orange);
   padding :10px;
 }
