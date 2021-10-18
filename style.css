@@ -92,7 +92,7 @@ header{
 footer{
   text-align :center;
   background :var(--dark-gray);
-  margin-bottom :10px;
+  margin-top :10px;
 }
 
 /*文字装飾系*/
