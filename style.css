@@ -61,11 +61,11 @@ li{
 /*box設定*/
 .box{
   padding :50px;
-  max-width :100%;
 }
 
 .box img{
   border-radius :10px;
+  max-width :100%;
 }
 
 .box:nth-of-type(2n){
