@@ -85,12 +85,14 @@ li{
 header{
   text-align :center;
   background :linear-gradient(90deg, var(--primary-blue) 0%, var(--primary-blue) 10%, var(--dark-gray) 10%, var(--dark-gray) 90%, var(--primary-orange) 90%, var(--primary-orange) 100%);
+  margin-bottom :10px;
 }
 
 /*フッター*/
 footer{
   text-align :center;
   background :var(--dark-gray);
+  margin-bottom :10px;
 }
 
 /*文字装飾系*/
