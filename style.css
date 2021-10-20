@@ -37,7 +37,7 @@ p {
 a {
   font-size: 25px;
   text-decoration: none;
-  color: #ffffffba;
+  color: rgb(255 255 255 / 75%);
 }
 
 a:hover {
