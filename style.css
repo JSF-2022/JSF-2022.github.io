@@ -10,6 +10,7 @@
   font-family: "Noto Sans JP";
   color: var(--white);
   line-height: 2em;
+  
   /*禁則処理*/
   word-break: keep-all;
   line-break: strict;
@@ -100,6 +101,10 @@ footer {
   font-size: 33px;
 }
 
+.delete {
+  text-decoration: line-through;
+}
+
 /*ボタンデザイン*/
 a.twitter {
   color: var(--white);
@@ -129,7 +134,9 @@ a.scratch:hover {
   color: #cccccc;
 }
 
-/*スマホなどのデバイス対策*/
+/*スマホ用フォントサイズ
+フォントサイズを変えたら必ずこっちもいじること！
+(フォントサイズ)/(625)*(100)で求められる*/
 @media screen and (max-width:625px) {
   h1 {
     font-size: 6.4vw;
@@ -148,6 +155,6 @@ a.scratch:hover {
   }
 
   .big {
-    font-size: 6.4vw;
+    font-size: 5.28vw;
   }
 }
