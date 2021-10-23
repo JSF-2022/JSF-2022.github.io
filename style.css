@@ -116,6 +116,7 @@ a.twitter {
   transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
   display: block;
   width: fit-content;
+  margin: 5px 0px;
 }
 
 a.twitter:hover {
@@ -131,6 +132,7 @@ a.scratch {
   transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
   display: block;
   width: fit-content;
+  margin: 5px 0px;
 }
 
 a.scratch:hover {
@@ -146,6 +148,7 @@ a.github {
   transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
   display: block;
   width: fit-content;
+  margin: 5px 0px;
 }
 
 a.github:hover {
@@ -161,6 +164,7 @@ a.web {
   transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
   display: block;
   width: fit-content;
+  margin: 5px 0px;
 }
 
 a.web:hover {
