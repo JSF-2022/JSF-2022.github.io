@@ -112,9 +112,10 @@ a.twitter {
   color: var(--white);
   border-radius: 10px;
   background-color: var(--twitter-blue);
-  padding: 5px;
-  margin-right: 30px;
-  transition: all 0.3s ease 0s;
+  padding: 0px 5px;
+  transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
+  display: block;
+  width: fit-content;
 }
 
 a.twitter:hover {
@@ -126,12 +127,43 @@ a.scratch {
   color: var(--white);
   border-radius: 10px;
   background-color: var(--scratch-orange);
-  padding: 5px;
-  margin-right: 30px;
-  transition: all 0.3s ease 0s;
+  padding: 0px 5px;
+  transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
+  display: block;
+  width: fit-content;
 }
 
 a.scratch:hover {
+  background-color: #cc9900;
+  color: #cccccc;
+}
+
+a.github {
+  color: var(--white);
+  border-radius: 10px;
+  background-color: var(--github-black);
+  padding: 0px 5px;
+  transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
+  display: block;
+  width: fit-content;
+}
+
+a.github:hover {
+  background-color: #0d0f11;
+  color: #cccccc;
+}
+
+a.web {
+  color: var(--white);
+  border-radius: 10px;
+  background-color: var(--primary-orange);
+  padding: 0px 5px;
+  transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
+  display: block;
+  width: fit-content;
+}
+
+a.web:hover {
   background-color: #cc9900;
   color: #cccccc;
 }
