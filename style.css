@@ -11,7 +11,6 @@
   font-family: "Noto Sans JP";
   color: var(--white);
   line-height: 2em;
-  
   /*禁則処理*/
   word-break: keep-all;
   line-break: strict;
