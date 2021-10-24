@@ -108,14 +108,17 @@ footer {
 }
 
 /*ボタンデザイン*/
-a.twitter {
+a.button {
   color: var(--white);
   border-radius: 10px;
-  background-color: var(--twitter-blue);
   padding: 0px 5px;
   transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
   display: inline-block;
   margin: 5px 0px;
+}
+
+a.twitter {
+  background-color: var(--twitter-blue);
 }
 
 a.twitter:hover {
@@ -124,13 +127,7 @@ a.twitter:hover {
 }
 
 a.scratch {
-  color: var(--white);
-  border-radius: 10px;
   background-color: var(--scratch-orange);
-  padding: 0px 5px;
-  transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
-  display: inline-block;
-  margin: 5px 0px;
 }
 
 a.scratch:hover {
@@ -139,13 +136,7 @@ a.scratch:hover {
 }
 
 a.github {
-  color: var(--white);
-  border-radius: 10px;
   background-color: var(--github-black);
-  padding: 0px 5px;
-  transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
-  display: inline-block;
-  margin: 5px 0px;
 }
 
 a.github:hover {
@@ -154,13 +145,7 @@ a.github:hover {
 }
 
 a.web {
-  color: var(--white);
-  border-radius: 10px;
   background-color: var(--primary-orange);
-  padding: 0px 5px;
-  transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
-  display: inline-block;
-  margin: 5px 0px;
 }
 
 a.web:hover {
