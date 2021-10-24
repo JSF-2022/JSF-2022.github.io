@@ -114,8 +114,7 @@ a.twitter {
   background-color: var(--twitter-blue);
   padding: 0px 5px;
   transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
-  display: block;
-  width: fit-content;
+  display: inline-block;
   margin: 5px 0px;
 }
 
@@ -130,8 +129,7 @@ a.scratch {
   background-color: var(--scratch-orange);
   padding: 0px 5px;
   transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
-  display: block;
-  width: fit-content;
+  display: inline-block;
   margin: 5px 0px;
 }
 
@@ -146,8 +144,7 @@ a.github {
   background-color: var(--github-black);
   padding: 0px 5px;
   transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
-  display: block;
-  width: fit-content;
+  display: inline-block;
   margin: 5px 0px;
 }
 
@@ -162,8 +159,7 @@ a.web {
   background-color: var(--primary-orange);
   padding: 0px 5px;
   transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
-  display: block;
-  width: fit-content;
+  display: inline-block;
   margin: 5px 0px;
 }
 
