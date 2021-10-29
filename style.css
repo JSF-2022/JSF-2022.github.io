@@ -82,6 +82,27 @@ li {
   border-top: solid 3px var(--primary-blue);
 }
 
+/*user-box設定*/
+.user-box {
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    border-left: solid 10px var(--primary-orange);
+    transition: border-left 0.3s;
+}
+
+.box:nth-of-type(2n) .user-box {
+    background-color: var(--light-gray);
+}
+
+.box:nth-of-type(2n+1) .user-box {
+    background-color: var(--dark-gray);
+}
+
+.user-box:hover {
+    border-left: solid 15px var(--primary-orange);
+}
+
 /*ヘッダー*/
 header {
   text-align: center;
