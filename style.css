@@ -96,7 +96,7 @@ li {
   transition: border-left 0.3s;
 }
 
-.user-box .blue {
+.user-box.blue {
   border-left-color: var(--primary-blue);
 }
 
@@ -113,11 +113,11 @@ li {
   border-left-color: var(--primary-orange);
 }
 
-.user-box .blue:hover {
+.user-box.blue:hover {
   border-left-color: var(--primary-blue);
 }
 
-.user-box .wide-margin {
+.user-box.wide-margin {
   margin-bottom: 40px;
 }
 
