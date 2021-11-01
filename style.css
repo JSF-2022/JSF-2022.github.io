@@ -18,6 +18,10 @@
   overflow-wrap: break-word;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0px;
   background-color: var(--light-gray);
@@ -84,23 +88,37 @@ li {
 
 /*user-box設定*/
 .user-box {
-    margin: 10px 0px;
-    padding: 10px;
-    border-radius: 10px;
-    border-left: solid 10px var(--primary-orange);
-    transition: border-left 0.3s;
+  margin: 10px 0px;
+  padding: 10px;
+  border-radius: 10px;
+  border-left: solid 10px;
+  border-left-color: var(--primary-orange);
+  transition: border-left 0.3s;
+}
+
+.user-box .blue {
+  border-left-color: var(--primary-blue);
 }
 
 .box:nth-of-type(2n) .user-box {
-    background-color: var(--light-gray);
+  background-color: var(--light-gray);
 }
 
 .box:nth-of-type(2n+1) .user-box {
-    background-color: var(--dark-gray);
+  background-color: var(--dark-gray);
 }
 
 .user-box:hover {
-    border-left: solid 15px var(--primary-orange);
+  border-left: solid 15px;
+  border-left-color: var(--primary-orange);
+}
+
+.user-box .blue:hover {
+  border-left-color: var(--primary-blue);
+}
+
+.user-box .wide-margin {
+  margin-bottom: 40px;
 }
 
 /*ヘッダー*/
