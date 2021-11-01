@@ -72,6 +72,10 @@ li {
   max-width: 100%;
 }
 
+.box iframe {
+  max-width: 100%;
+}
+
 .box:nth-of-type(2n) {
   background-color: var(--dark-gray);
   border-bottom: solid 3px var(--primary-blue);
