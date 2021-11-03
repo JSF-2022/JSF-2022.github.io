@@ -154,6 +154,7 @@ footer {
 .askii-art {
   line-height: 1.5em;
   white-space: nowrap;
+  display: inline-block;
 }
 
 /*カクカクアニメーション*/
