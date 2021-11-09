@@ -7,7 +7,6 @@
   --github-black: #24292f;
   --dark-gray: #4a4a4a;
   --light-gray: #5e5e5e;
-  
   font-family: "Noto Sans JP";
   color: var(--white);
   line-height: 2em;
@@ -29,17 +28,17 @@ body {
 
 h1 {
   margin: 0px;
-  font-size: 40px;
+  font-size: min(6.4vw, 40px);
   font-weight: 700;
 }
 
 p {
   margin: 0px;
-  font-size: 25px;
+  font-size: min(4vw, 25px);
 }
 
 a {
-  font-size: 25px;
+  font-size: min(4vw, 25px);
   text-decoration: none;
   color: rgb(255 255 255 / 75%);
 }
@@ -53,7 +52,7 @@ ul {
 }
 
 li {
-  font-size: 25px;
+  font-size: min(4vw, 25px);
   list-style: none;
 }
 
@@ -143,7 +142,7 @@ footer {
 
 /*文字装飾系*/
 .big {
-  font-size: 33px;
+  font-size: min(5.28vw, 33px);
 }
 
 .delete {
@@ -217,29 +216,4 @@ a.web {
 a.web:hover {
   background-color: #cc9900;
   color: #cccccc;
-}
-
-/*スマホ用フォントサイズ
-フォントサイズを変えたら必ずこっちもいじること！
-(フォントサイズ)/(625)*(100)で求められる*/
-@media screen and (max-width:625px) {
-  h1 {
-    font-size: 6.4vw;
-  }
-
-  p {
-    font-size: 4vw;
-  }
-
-  a {
-    font-size: 4vw
-  }
-
-  li {
-    font-size: 4vw;
-  }
-
-  .big {
-    font-size: 5.28vw;
-  }
 }
