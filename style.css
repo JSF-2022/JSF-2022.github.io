@@ -15,6 +15,7 @@
   line-break: strict;
   word-wrap: break-word;
   overflow-wrap: break-word;
+  font-feature-settings: "palt" 1;
 }
 
 html {
