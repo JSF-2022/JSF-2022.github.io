@@ -15,7 +15,7 @@
   line-break: strict;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  font-feature-settings: "palt" 1;
+  font-feature-settings: "palt"1;
 }
 
 html {
@@ -183,6 +183,21 @@ a.button {
   margin: 5px 7mm 5px 0px;
 }
 
+a.share {
+  color: var(--white);
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  width: clamp(35px, 7vw, 70px);
+  height: clamp(35px, 7vw, 70px);
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
 a.twitter {
   background-color: var(--twitter-blue);
 }
@@ -217,4 +232,8 @@ a.web {
 a.web:hover {
   background-color: #cc9900;
   color: #cccccc;
+}
+
+a * {
+  color: inherit;
 }
