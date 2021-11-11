@@ -189,8 +189,8 @@ a.share {
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
-  width: clamp(35px, 7vw, 70px);
-  height: clamp(35px, 7vw, 70px);
+  width: calc(min(4vw, 25px) * 3);
+  height: calc(min(4vw, 25px) * 3);
   padding: 0;
   margin: 0;
   position: fixed;
