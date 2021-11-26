@@ -159,6 +159,44 @@ footer {
   margin-top: 10px;
 }
 
+/*ファーストビュー*/
+.fv {
+  position: fixed;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--light-gray);
+  font-weight: 700;
+  font-size: min(7vw, 80px);
+  animation: 2s fv-animation ease 0s forwards;
+}
+
+@keyframes fv-animation {
+  0% {
+    opacity: 1;
+    border-top: solid 0vh var(--primary-blue);
+    border-bottom: solid 0vh var(--primary-orange);
+  }
+
+  80% {
+    opacity: 1;
+    border-top: solid 10vh var(--primary-blue);
+    border-bottom: solid 10vh var(--primary-orange);
+  }
+
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    border-top: solid 0vh var(--primary-blue);
+    border-bottom: solid 0vh var(--primary-orange);
+  }
+}
+
 /*文字装飾系*/
 .big {
   font-size: min(5.28vw, 33px);
