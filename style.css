@@ -18,6 +18,10 @@
   font-feature-settings: "palt"1;
 }
 
+html,body {
+  height: 100%;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -169,7 +173,7 @@ footer {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background-color: var(--light-gray);
   font-weight: 700;
   font-size: min(7vw, 80px);
