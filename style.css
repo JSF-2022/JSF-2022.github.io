@@ -178,7 +178,7 @@ footer {
   background-color: var(--light-gray);
   font-weight: 700;
   font-size: min(7vw, 80px);
-  animation: 2s fv-animation ease 0 forwards;
+  animation: 2s fv-animation ease 0s forwards;
 }
 
 @keyframes fv-animation {
