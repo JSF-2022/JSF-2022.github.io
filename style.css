@@ -96,7 +96,7 @@ li {
 
 .box iframe {
   max-width: 100%;
-  border: 0;
+  border: 0px;
 }
 
 .box:nth-of-type(2n) {
@@ -115,7 +115,7 @@ li {
 
 /*user-box設定*/
 .user-box {
-  margin: 10px 0;
+  margin: 10px 0px;
   padding: 10px;
   border-radius: 10px;
   border-left: solid 10px;
@@ -171,8 +171,8 @@ footer {
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
-  top: 0;
-  left: 0;
+  top: 0px;
+  left: 0px;
   width: 100vw;
   height: 100%;
   background-color: var(--light-gray);
@@ -184,8 +184,8 @@ footer {
 @keyframes fv-animation {
   0% {
     opacity: 1;
-    border-top: solid 0 var(--primary-blue);
-    border-bottom: solid 0 var(--primary-orange);
+    border-top: solid 0px var(--primary-blue);
+    border-bottom: solid 0px var(--primary-orange);
   }
 
   80% {
@@ -197,8 +197,8 @@ footer {
   100% {
     opacity: 0;
     visibility: hidden;
-    border-top: solid 0 var(--primary-blue);
-    border-bottom: solid 0 var(--primary-orange);
+    border-top: solid 0px var(--primary-blue);
+    border-bottom: solid 0px var(--primary-orange);
   }
 }
 
@@ -220,17 +220,16 @@ footer {
 
 /*カクカクアニメーション*/
 .dance {
-  animation: kakukaku 1s infinite;
-  animation-timing-function: steps(2);
+  animation: kakukaku 1s steps(2) infinite;
 }
 
 @keyframes kakukaku {
   0% {
-    transform: translate(0, 0)
+    transform: translate(0px, 0px);
   }
 
   100% {
-    transform: translate(50px, 0)
+    transform: translate(50px, 0px);
   }
 }
 
@@ -238,7 +237,7 @@ footer {
 a.button {
   color: var(--white);
   border-radius: 10px;
-  padding: 0 5px;
+  padding: 0px 5px;
   transition: background-color 0.3s, color 0.3s;
   display: inline-block;
   margin: 5px 7mm 5px 0px;
@@ -252,8 +251,8 @@ a.share {
   justify-content: center;
   width: calc(min(4vw, 25px) * 3);
   height: calc(min(4vw, 25px) * 3);
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
   position: fixed;
   right: 20px;
   bottom: 20px;
