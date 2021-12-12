@@ -96,6 +96,7 @@ li {
 
 .box iframe {
   max-width: 100%;
+  border: 0;
 }
 
 .box:nth-of-type(2n) {
@@ -114,7 +115,7 @@ li {
 
 /*user-box設定*/
 .user-box {
-  margin: 10px 0px;
+  margin: 10px 0;
   padding: 10px;
   border-radius: 10px;
   border-left: solid 10px;
@@ -177,14 +178,14 @@ footer {
   background-color: var(--light-gray);
   font-weight: 700;
   font-size: min(7vw, 80px);
-  animation: 2s fv-animation ease 0s forwards;
+  animation: 2s fv-animation ease 0 forwards;
 }
 
 @keyframes fv-animation {
   0% {
     opacity: 1;
-    border-top: solid 0vh var(--primary-blue);
-    border-bottom: solid 0vh var(--primary-orange);
+    border-top: solid 0 var(--primary-blue);
+    border-bottom: solid 0 var(--primary-orange);
   }
 
   80% {
@@ -196,8 +197,8 @@ footer {
   100% {
     opacity: 0;
     visibility: hidden;
-    border-top: solid 0vh var(--primary-blue);
-    border-bottom: solid 0vh var(--primary-orange);
+    border-top: solid 0 var(--primary-blue);
+    border-bottom: solid 0 var(--primary-orange);
   }
 }
 
@@ -225,11 +226,11 @@ footer {
 
 @keyframes kakukaku {
   0% {
-    transform: translate(0px, 0px)
+    transform: translate(0, 0)
   }
 
   100% {
-    transform: translate(50px, 0px)
+    transform: translate(50px, 0)
   }
 }
 
@@ -237,8 +238,8 @@ footer {
 a.button {
   color: var(--white);
   border-radius: 10px;
-  padding: 0px 5px;
-  transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
+  padding: 0 5px;
+  transition: background-color 0.3s, color 0.3s;
   display: inline-block;
   margin: 5px 7mm 5px 0px;
 }
