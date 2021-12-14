@@ -95,6 +95,11 @@ li {
   border-top: solid 3px var(--primary-blue);
 }
 
+.fas .fa-link {
+  display: block;
+  float: right;
+}
+
 /*user-box設定*/
 .user-box {
   margin: 10px 0px;
