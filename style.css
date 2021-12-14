@@ -95,7 +95,7 @@ li {
   border-top: solid 3px var(--primary-blue);
 }
 
-.fas .fa-link {
+.box .fa-link {
   display: block;
   float: right;
 }
