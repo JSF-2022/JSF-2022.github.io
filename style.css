@@ -96,8 +96,12 @@ li {
 }
 
 .box .fa-link {
-  display: block;
+  display: none;
   float: right;
+}
+
+.box:hover .fa-link {
+  display: block;
 }
 
 /*user-box設定*/
