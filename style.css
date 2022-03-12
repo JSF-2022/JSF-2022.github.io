@@ -78,6 +78,7 @@ li {
 
 .box iframe {
   background-color: var(--white);
+  border-radius: 10px;
   max-width: 100%;
   border: 0px;
 }
