@@ -109,8 +109,16 @@ li {
 }
 
 /*user-box設定*/
+.user-boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
 .user-box {
-  margin: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 10px;
   border-radius: 10px;
   border-left: solid 10px;
@@ -137,10 +145,6 @@ li {
 
 .user-box.blue:hover {
   border-left-color: var(--primary-blue);
-}
-
-.user-box.wide-margin {
-  margin-bottom: 40px;
 }
 
 /*ヘッダー*/
@@ -235,7 +239,7 @@ a.button {
   padding: 0px 5px;
   transition: background-color 0.3s, color 0.3s;
   display: inline-block;
-  margin: 5px 7mm 5px 0px;
+  margin: 0 20px;
 }
 
 a.share {
