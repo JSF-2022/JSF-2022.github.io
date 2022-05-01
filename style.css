@@ -19,7 +19,7 @@
   font-feature-settings: "palt"1;
 }
 
-html,body {
+html, body {
   height: 100%;
 }
 
@@ -111,7 +111,7 @@ li {
 /*user-box設定*/
 .user-boxes {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
   gap: 20px;
 }
 
@@ -126,7 +126,7 @@ li {
   transition: border-left 0.3s;
 }
 
-.user-box.blue {
+.user-box.primary {
   border-left-color: var(--primary-blue);
 }
 
@@ -143,8 +143,14 @@ li {
   border-left-color: var(--primary-orange);
 }
 
-.user-box.blue:hover {
+.user-box.primary:hover {
   border-left-color: var(--primary-blue);
+}
+
+@media screen and (min-width: 1712px) {
+  .user-box.primary {
+    grid-column: 1/4;
+  }
 }
 
 /*ヘッダー*/
