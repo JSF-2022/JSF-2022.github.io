@@ -206,6 +206,24 @@ footer {
   }
 }
 
+.fv svg {
+  width: min(90%, 800px);
+  stroke-dasharray: 200 200;
+  stroke-dashoffset: -200;
+  animation: appear 1s 0.2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes appear {
+  0% {
+    stroke-dashoffset: -200;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
 /*文字装飾系*/
 .big {
   font-size: min(5.28vw, 33px);
