@@ -146,12 +146,6 @@ li {
   border-left-color: var(--primary-blue);
 }
 
-@media screen and (min-width: 1712px) {
-  .user-box.primary {
-    grid-column: 1/4;
-  }
-}
-
 /*ヘッダー*/
 header {
   text-align: center;
