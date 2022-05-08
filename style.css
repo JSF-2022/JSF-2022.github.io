@@ -66,6 +66,10 @@ li {
   list-style: none;
 }
 
+img {
+  border-radius: 10px;
+}
+
 ::selection {
   background-color: #8f8f8f;
   color: var(--white);
