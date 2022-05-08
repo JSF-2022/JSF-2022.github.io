@@ -23,6 +23,17 @@
   max-width: 100%;
 }
 
+.news-wrapper {
+  max-height: 200px;
+  overflow-y: auto;
+  background: #ffffff33;
+  border-radius: 10px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 500px), 1fr));
+  gap: 20px;
+}
+
 html, body {
   height: 100%;
 }
@@ -147,6 +158,29 @@ img {
 
 .user-box.primary:hover {
   border-left-color: var(--primary-blue);
+}
+
+/*news-box設定*/
+.news-box {
+  color: var(--white);
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  transition: background-color .3s;
+  cursor: pointer;
+}
+
+.news-box:hover {
+  background-color: var(--primary-blue);
+}
+
+.news-box * {
+  line-height: 1.6em;
+  margin: 0;
+}
+
+.news-box p {
+  font-size: min(4vw, 20px);
 }
 
 /*ヘッダー*/
