@@ -53,6 +53,10 @@ h1 {
   font-weight: 700;
 }
 
+h1::first-letter {
+  font-size: min(8vw,55px);
+}
+
 p {
   margin: 0px;
   font-size: min(4vw, 25px);
