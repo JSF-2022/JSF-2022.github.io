@@ -42,7 +42,7 @@ h1 {
   font-weight: 700;
 }
 
-.box h1::first-letter {
+.box>h1::first-letter {
   font-size: min(8vw,55px);
 }
 
