@@ -23,17 +23,6 @@
   max-width: 100%;
 }
 
-.news-wrapper {
-  max-height: 200px;
-  overflow-y: auto;
-  background: #ffffff33;
-  border-radius: 10px;
-  padding: 10px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 500px), 1fr));
-  gap: 20px;
-}
-
 html, body {
   height: 100%;
 }
@@ -53,7 +42,7 @@ h1 {
   font-weight: 700;
 }
 
-h1::first-letter {
+.box h1::first-letter {
   font-size: min(8vw,55px);
 }
 
@@ -185,6 +174,17 @@ img {
 
 .news-box p {
   font-size: min(4vw, 20px);
+}
+
+.news-wrapper {
+  max-height: 200px;
+  overflow-y: auto;
+  background: #ffffff33;
+  border-radius: 10px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 500px), 1fr));
+  gap: 20px;
 }
 
 /*ヘッダー*/
